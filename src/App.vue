@@ -1,10 +1,17 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <ul class="list-disc list-inside">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+    <ul role="list">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+    <img src="@/assets/logo.png" alt="logo" />
   </div>
 </template>
 
